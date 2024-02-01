@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <link rel="stylesheet" href="css/style.css"> <!---external css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="img/faviconBlog.png" type="image/png"> <!-- use of favicon-->
+</head>
+
+<style>
+  body {  /*  use of internal css*/
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .blog-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .blog {
+    width: 45%;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px blueviolet;
+
+  }
+
+  .blog img {
+    width: 100%;
+    height: 60%;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .blog-content {
+    padding: 20px;
+    max-height: 200px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: blueviolet transparent;
+  }
+
+  .like-dislike {
+    margin: 10px;
+  }
+
+  .like-btn,
+  .dislike-btn {
+    cursor: pointer;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3498db;
+    color: #fff;
+    margin-right: 0.5rem;
+  }
+
+  .blog h2 {
+    text-align: center;
+  }
+
+  .blog-content p {
+    text-align: justify;
+  }
+</style>
+
+<body>
+
+  <div class="main" style="height:19vh;">
+    <div id="marginright" style="margin-right: 20px;">
+      <div class="navbar">
+        <div class="icon">
+          <h2 class="logo">PrinterJunction&trade;</h2>
+        </div>
+      </div>
+
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="product.html">PRODUCTS</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="research.html">Research</a></li>
+        </ul>
+      </div>
+
+      <div class="search">
+        <input class="srch" type="search" name="" placeholder="Search">
+        <a href="#"> <button class="btn">Search</button></a>
+      </div>
+      <div class="topic">
+        <div class="fa-solid fa-cart-shopping"></div>
+        <div class="fa-solid fa-heart"></div>
+      </div>
+    </div>
+  </div>
+
+  <!--- blogs section starts from here -->
+  <h1 style="text-align: center; color: white;">Our technology & it's Impact</h1>
+
+  <div class="blog-container">
+    <div class="blog">
+      <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Has_Technology_Improved_Our_Lives.jpg"
+        alt="Blog Image 1">
+      <h2>The Impact of Technology on Our Daily Lives</h2>
+      <div class="blog-content">
+        <p>
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; In the 21st century, technology has become an integral part of our
+          daily existence, influencing how we communicate, work, learn, and entertain ourselves. Instant communication
+          through smartphones and social media has revolutionized how we stay connected globally. The workplace has
+          embraced remote collaboration and automation, enhancing productivity. Education has evolved with online
+          platforms and immersive technologies like VR and AR.<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; Healthcare
+          benefits from telemedicine, wearables, and personalized medicine. Entertainment has gone digital, with
+          streaming services and online gaming dominating. As technology continues to shape our lives, it's essential to
+          navigate these changes responsibly, ensuring that advancements enhance rather than detract from the human
+          experience.
+        </p>
+        <div class="like-dislike">
+          <button class="like-btn"><i class="fas fa-thumbs-up"></i></button>
+          <button class="dislike-btn"><i class="fas fa-thumbs-down"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="blog">
+      <img
+        src="https://media.licdn.com/dms/image/C4D12AQGvT21D24vVZA/article-cover_image-shrink_600_2000/0/1602153188031?e=2147483647&v=beta&t=qRq2EgyfOgR36d0yH6FVJooz2IQn_z_Zzazj3JBLskk"
+        alt="Blog Image 2">
+      <h2>The Impact of Technology in Business</h2>
+      <div class="blog-content">
+        <p>
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; In the 21st century, technology is reshaping the business landscape,
+          revolutionizing operations and fostering global connectivity. Automation and optimized workflows enhance
+          productivity, while the internet and communication technologies facilitate seamless collaboration across
+          continents. Data-driven decision-making, powered by big data analytics, provides valuable insights for market
+          adaptation. E-commerce and digital transformations redefine customer engagement through personalized
+          experiences for loyalty. <br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; Yet, this technological reliance poses
+          cybersecurity challenges that demand robust protective measures. Amidst these challenges, technology empowers
+          businesses to remain agile and innovative, embracing methodologies like agile development and emerging
+          technologies such as AI and IoT. Navigating this evolving technological landscape is crucial for businesses to
+          thrive in the competitive global economy, demanding adaptability and responsible use of technological
+          advancements.
+        </p>
+        <div class="like-dislike">
+          <button class="like-btn"><i class="fas fa-thumbs-up"></i></button>
+          <button class="dislike-btn"><i class="fas fa-thumbs-down"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h1 style="text-align: center; color: white; "> <!-- use of inline css-->The Evolution of Printers: From Humble Beginnings to Modern Marvels</h1>
+
+  <div class="blog-container">
+    <div class="blog">
+      <img
+        src="https://cdn.britannica.com/89/171689-138-FCD8F373/history-printing-press-work-discussion-Johannes-Gutenberg.jpg"
+        alt="Blog Image 3">
+      <h2>The Past - An Ode to the Early Days of Printing</h2>
+      <div class="blog-content">
+
+        <p>
+          &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;In the annals of technological history, the printer stands as a silent
+          witness to a remarkable journey of innovation and progress. The roots of printing can be traced back to
+          ancient China, where woodblocks were used to transfer ink onto paper. Fast forward to the 15th century, and
+          the invention of the printing press by Johannes Gutenberg revolutionized the way information was
+          disseminated.<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; This mechanical marvel allowed for the mass
+          production of books and played a pivotal role in the Renaissance and the spread of knowledge. The subsequent
+          centuries witnessed the refinement of printing techniques, from the advent of lithography to the invention of
+          the typewriter in the 19th century.However, it wasn't until the late 20th century that printers as we know
+          them today began to take shape. The emergence of dot matrix and inkjet printers marked a significant leap
+          forward, bringing printing capabilities into homes and offices.
+        </p>
+        <div class="like-dislike">
+          <button class="like-btn"><i class="fas fa-thumbs-up"></i></button>
+          <button class="dislike-btn"><i class="fas fa-thumbs-down"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="blog">
+      <img src="https://www.rbmcq.com.au/wp-content/uploads/2021/08/Canon-Achieves-BLI-2021-A4-1-1280x878.jpg"
+        alt="Blog Image 4">
+      <h2>The Present - Printers in the Digital Age</h2>
+      <div class="blog-content">
+
+        <p>
+          &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; In today's digital era, printers have undergone a profound
+          transformation, evolving into sleek, multifunctional devices seamlessly integrated with our daily lives.
+          Modern inkjet and laser printers deliver high-quality prints with remarkable precision and speed, while
+          wireless connectivity enables effortless printing from a variety of devices. The advent of 3D printing has
+          revolutionized manufacturing and unleashed creative possibilities, allowing for the creation of intricate
+          physical objects layer by layer. The current emphasis on sustainability has also influenced the development of
+          eco-friendly printers, incorporating energy-efficient technologies and recycled materials. <br>&nbsp; &nbsp;
+          &nbsp; &nbsp;&nbsp; &nbsp; As we navigate the digital age, printers not only continue to put ink on paper but
+          also empower us to materialize our ideas in ways that were once unimaginable. With innovations such as mobile
+          printing apps and cloud-based services, the convenience and accessibility of printing have reached new
+          heights, making these devices indispensable tools in both professional and personal settings.
+        </p>
+        <div class="like-dislike">
+          <button class="like-btn"><i class="fas fa-thumbs-up"></i></button>
+          <button class="dislike-btn"><i class="fas fa-thumbs-down"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <hr>
+  <footer>
+    <div class="row primary">
+      <div class="column aboutF">
+        <h3>Follow Us</h3>
+        <div class="social">
+          <i class="fa-brands fa-facebook-square"></i>
+          <i class="fa-brands fa-instagram-square"></i>
+          <i class="fa-brands fa-twitter-square"></i>
+          <i class="fa-brands fa-whatsapp-square"></i>
+        </div>
+      </div>
+      <div class="column links">
+        <h3>Visit Our store</h3>
+        <p>
+          Main Road<br>
+          Itahari, Sunsari<br>
+          Koshi Province, Nepal<br>
+          siwakoti.bidur7745@yahoo.com<br>
+          +977 - 98622625556
+        </p>
+      </div>
+      <div class="column subscribe">
+        <h3>For Offers</h3>
+        <div class="foot">
+          <input type="email" placeholder="Your email id here">
+          <button class="buttonF">Subscribe</button>
+        </div>
+      </div>
+      <div class="privacy">
+        <h3>Our Privacy policy</h3>
+        <p>
+          At Printer Junction, we prioritize the confidentiality of your information. We collect minimal personal data
+          required to improve our services and user experience.
+          <br><span>Read More....</span>
+        </p>
+      </div>
+    </div>
+    <p style="text-align: center;">Copyright &copy; 2024 Printer Junction</p>
+  </footer>
+</body>
+<p>
+</p>
+
+</html>

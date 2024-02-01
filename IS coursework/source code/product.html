@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="icon" href="img/faviconproduct.svg" type="image/png">
+
+
+</head>
+<style>
+    /* Add this CSS code in your product.css or within a <style> tag in the head section */
+
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .modal-content {
+        background-color: #fefefe;
+        margin: 10% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 60%;
+    }
+
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+
+
+    <div class="main" style="height: 10vh;">
+        <div id="marginright" style="margin-right: 20px;">
+            <div class="navbar">
+                <div class="icon">
+                    <h2 class="logo">PrinterJunction&trade;</h2>
+                </div>
+            </div>
+
+            <div class="menu">
+
+
+                <ul>
+
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="product.html">PRODUCTS</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="research.html">Research</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Search">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+            <div class="topic">
+                <div class="fa-solid fa-cart-shopping"></div>
+                <div class="fa-solid fa-heart"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--product-->
+
+    <div class="product" id="Menu" style="padding-top: 150px;">
+        <h1 style="margin-bottom: 1.5rem;">Get Your<span>Printer Now</span></h1>
+
+        <div class="product_box">
+            <div class="product_card">
+
+                <div class="product_image">
+                    <img src="img/product1.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="product_info">
+                    <h3>HP LaserJet Pro M15w Printer</h3>
+                    <p>
+                        Delivers high-speed printing, sharp monochrome documents, and effortless setup.
+                    </p>
+                    <div class="strike">
+                        <h4> RS 26999/-</h4>
+                    </div>
+                    <h4>RS 23999/-</h4>
+                    <div class="product_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="product_btn">Order Now</a>
+                </div>
+
+            </div>
+
+            <div class="product_card">
+
+                <div class="product_image">
+                    <img src="img/product2.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="product_info">
+                    <h3> Canon PIXMA TR4520 Printer</h3>
+                    <p>
+                        Versatile wireless connectivity, seamless mobile printing, and vibrant color output,
+                    </p>
+                    <div class="strike">
+                        <h4> RS 24999/-</h4>
+                    </div>
+                    <h4>RS 20999/-</h4>
+                    <div class="product_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="product_btn">Order Now</a>
+                </div>
+
+            </div>
+
+            <div class="product_card">
+
+                <div class="product_image">
+                    <img src="img/product3_ET2720.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="product_info">
+                    <h3>Epson ET-2720 Printer</h3>
+                    <p>
+                        Eco-friendly technology, providing cartridge-free printing, crisp quality outputs.
+                    </p>
+                    <div class="strike">
+                        <h4> RS 35999/-</h4>
+                    </div>
+                    <h4>RS 33999/-</h4>
+                    <div class="product_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="product_btn">Order Now</a>
+                </div>
+
+            </div>
+
+
+            <div class="product_card">
+
+                <div class="product_image">
+                    <img src="img/product4.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="product_info">
+                    <h3>Brother L2350DW Laser Printer</h3>
+                    <p>
+                        Reliable wireless printing, compact design, automatic double-sided printing.
+                    </p>
+                    <div class="strike">
+                        <h4> RS 30999/-</h4>
+                    </div>
+                    <h4>RS 28999/-</h4>
+                    <div class="product_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="product_btn">Order Now</a>
+                </div>
+
+            </div>
+
+
+            <div class="product_card">
+
+                <div class="product_image">
+                    <img src="img/product5.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="product_info">
+                    <h3>HP LaserJet Pro M15w Printer</h3>
+                    <p>
+                        Swift wireless printing, compact design,monochrome outputs, and easy setup.
+                    </p>
+                    <div class="strike">
+                        <h4> RS 45999/-</h4>
+                    </div>
+                    <h4>RS 42999/-</h4>
+                    <div class="product_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="product_btn">Order Now</a>
+                </div>
+
+            </div>
+
+
+            <div class="product_card">
+
+                <div class="product_image">
+                    <img src="img/product6.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="product_info">
+                    <h3>Canon TS8320 Wireless Inkjet</h3>
+                    <p>
+                        Delivers stunning color prints, versatile media handling, and touchscreen
+                        interface.
+                    </p>
+                    <div class="strike">
+                        <h4> RS 35999/-</h4>
+                    </div>
+                    <h4>RS 30999/-</h4>
+                    <div class="product_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="product_btn">Order Now</a>
+                </div>
+            </div>
+
+
+            <div class="product_card">
+
+                <div class="product_image">
+                    <img src="img/product7.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="product_info">
+                    <h3> Epson Pro WF-3720 Wireless </h3>
+                    <p>
+                        Rapid printing, precision color outputs, and versatile paper handling.
+                    </p>
+                    <div class="strike">
+                        <h4> RS 25999/-</h4>
+                    </div>
+                    <h4>RS 20999/-</h4>
+                    <div class="product_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="product_btn">Order Now</a>
+                </div>
+
+            </div>
+
+
+
+            <div class="product_card">
+
+                <div class="product_image">
+                    <img src="img/product8.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="product_info">
+                    <h3>Brother MFC-L2750DW Printer</h3>
+                    <p>
+                        Multifunction capabilities, duplex scanning, wireless connectivity, and touchscreen.
+                    </p>
+                    <div class="strike">
+                        <h4> RS 23999/-</h4>
+                    </div>
+                    <h4>RS 20999/-</h4>
+                    <div class="product_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="product_btn">Order Now</a>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="product_card">
+
+                <div class="product_image">
+                    <img src="img/product9.png">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="product_info">
+                    <h3>HP ENVY Photo 7855 Printer</h3>
+                    <p>
+                        Vibrant photo outputs, versatile wireless connectivity, automatic document feeder.
+                    </p>
+                    <div class="strike">
+                        <h4> RS 25999/-</h4>
+                    </div>
+                    <h4>RS 20999/-</h4>
+                    <div class="product_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="product_btn">Order Now</a>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    <hr>
+    <hr>
+
+    <div class="help" id="Order">
+        <h1><span>Help</span>& Support</h1>
+        <div class="order_main">
+
+            <div class="order_image">
+                <img src="img/help andsupport.png">
+            </div>
+
+            <form action="isFormSubmitted()">
+
+                <div class="input">
+                    <p>Name</p>
+                    <input type="text" placeholder="Your name">
+                </div>
+
+                <div class="input">
+                    <p>Email</p>
+                    <input type="email" placeholder="Your email">
+                </div>
+
+                <div class="input">
+                    <p>Contact Number</p>
+                    <input placeholder="you number">
+                </div>
+
+                <div class="input">
+                    <p>Date of Purchase</p>
+                    <input type="date" placeholder="Date of your purchase">
+                </div>
+
+                <div class="input">
+                    <p>You Order</p>
+                    <input placeholder="Printer Name ">
+                </div>
+
+                <div class="input">
+                    <p>Address</p>
+                    <input placeholder="you Address">
+                </div>
+
+                <button type="submit" class="order_btn">Get Support</button>
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+    <hr>
+    <hr>
+    <footer>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+
+        <div class="row primary">
+            <div class="column aboutF">
+                <h3>Follow Us</h3>
+                <div class="social">
+                    <i class="fa-brands fa-facebook-square"></i>
+                    <i class="fa-brands fa-instagram-square"></i>
+                    <i class="fa-brands fa-twitter-square"></i>
+                    <i class="fa-brands fa-whatsapp-square"></i>
+                </div>
+            </div>
+            <div class="column links">
+                <h3>Visit Our store</h3>
+                <p>
+                    Main Road<br>
+                    Itahari, Sunsari<br>
+                    Koshi Province, Nepal<br>
+                    siwakoti.bidur7745@yahoo.com<br>
+                    +977 - 98622625556
+                </p>
+            </div>
+            <div class="column subscribe">
+                <h3>For Offers</h3>
+                <div class="foot">
+                    <input type="email" placeholder="Your email id here">
+                    <button class="buttonF">Subscribe</button>
+                </div>
+
+            </div>
+
+            <div class="privacy">
+                <h3>Our Privacy policy</h3>
+                <p>At Printer Junction, we prioritize the confidentiality of your information. We collect minimal
+                    personal data required to improve our services and user experience.<br><span>Read More....</span>
+                </p>
+            </div>
+
+        </div>
+        <p style="text-align: center;">Copyright &copy; 2024 Printer Junction</p>
+
+    </footer>
+
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Order Confirmation</h2>
+            <p>Your order has been placed successfully!</p>
+        </div>
+    </div>
+
+
+
+    <script src="js/order.js"></script>
+    <script src="js/form.js"></script>
+
+
+
+
+</body>
+
+</html>
