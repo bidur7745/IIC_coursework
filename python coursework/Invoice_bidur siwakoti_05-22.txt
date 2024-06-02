@@ -1,0 +1,12 @@
+=======================Invoice for Land rental System ========================
+Date:2024-05-22 									Time: 13:46:58
+------------------------------------------------------------------------------
+Customer Name:       bidur siwakoti
+Phone Number:        +977-98123456
+Kitta Number:        106
+City/District:       Us
+Direction:           West
+Date & Time of Rent: 2024-05-22 13:46:58
+Duration of Rent:    12 months
+Total Amount:        960000
+==========================================================================

@@ -1,0 +1,11 @@
+101, Kathmandu, North, 4, 50000, Available
+102, Pokhara, East, 5, 60000, Not Available
+103, Lalitpur, South, 10, 100000, Available
+104, Pathari, East, 8, 50000, Available
+105, Damak, East, 7, 60000, Available
+106, Us, West, 15, 80000, Rented
+107, Ithari, North, 22, 40000, Rented
+108, Dulari, South, 9, 20000, Rented
+109, Dharan, West, 8, 70000, Rented
+110, Butwal, East, 2, 30000, Rented
+111, Barcelona, South, 5, 50000, Rented

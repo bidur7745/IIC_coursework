@@ -1,0 +1,12 @@
+=======================Invoice for Land rental System ========================
+Date:2024-05-28 									Time: 20:04:38
+------------------------------------------------------------------------------
+Customer Name:       Abishek Siwakoti
+Phone Number:        +977-9842531031
+Kitta Number:        106
+City/District:       Us
+Direction:           West
+Date & Time of Rent: 2024-05-28 20:04:38
+Duration of Rent:    120 months
+Total Amount:        9600000
+==========================================================================

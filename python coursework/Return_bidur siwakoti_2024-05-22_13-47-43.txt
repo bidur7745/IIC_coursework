@@ -1,0 +1,14 @@
+=======================Invoice for returning land ========================
+Date:2024-05-22 									Time: 13:47:43
+------------------------------------------------------------------------------
+Customer Name: bidur siwakoti
+Phone Number: +977-9812346567
+Kitta Number: 106
+Total Amount to pay: 960000
+City/District: Us
+Direction: West
+Date and Time of Return: 2024-05-22 13:47:43
+Total Amount without fine: 960000
+Total Amount with fine: RS.1152000.0
+--------------------------------------------------------------------------
+
